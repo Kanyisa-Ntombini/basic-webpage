@@ -1,0 +1,191 @@
+/**********************************************************************************************
+ELEMENT SELECTORS
+**********************************************************************************************/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Papyrus', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 900;
+    /*border: 5px solid pink;*/
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Redressed', cursive;
+    /*border: 1px solid black;*/
+}
+
+h3 {
+    /*border: 1px solid black;*/
+    font-style: italic;
+    font-size: 1.5em;
+    font-family: 'Redressed', cursive;
+}
+
+table {
+    width: 25em;
+    height: 25em;
+}
+
+td {
+    padding: 2em;
+    width: 5em;
+}
+
+ul {
+    font-size:0.5em;
+}
+/*******************************************************************************************
+GENERAL CLASSES AND ID
+*******************************************************************************************/
+.height-tall {
+    height: 17em;
+}
+.height-short {
+    height: 5em;
+    background-color: grey;
+}
+/** CULTURAL VILLAGE 4a **/
+.background-4a {
+    background-color: hotpink;
+}
+/** HOSPITAL 4b **/
+.background-4b {
+  background-color: lemonchiffon;
+}
+/** MUSEUM 4c **/
+.background-4c {
+  background-color: lightseagreen;
+}
+.back-color {
+    background-color: tomato;
+
+}
+.row {
+    width: 100%;
+}
+.div-clear {
+    clear: left;
+}
+/***********************************************************************************************
+MEDIA QUERY
+**********************************************************************************************/
+/* TOP OF THE PAGE (1) */
+
+@media (min-width: 769px) { /* DESKTOP */
+    .move-left-1 {
+        float: left;
+        width: 50%;
+        padding: 1em;
+        /*border: 2px solid black;*/
+    }
+}
+@media (max-width: 768px) { /* SMALL DEVICE */
+    .center-1 {
+        text-align: center;
+    }
+}
+.border-1 {
+    clear: both;
+    /*border: 5px solid springgreen;*/
+    /*margin-right: 1em;*/
+}
+
+/* ISLAND TO VISIT (2) */
+@media (min-width: 769px) { /* LAPTOP */
+    .move-left-2 {
+        float: left;
+        width: 25%;
+        padding: 1em;
+        /*border: 2px solid black;*/
+    }
+}
+
+/* NO MEDIA QUERY FOR SMALL DEVICE */
+
+.border-2 {
+    clear: both;
+    /*border: 5px solid blue;*/
+    /*margin-right: 1em;*/
+    /*margin-top: 2em;*/
+}
+
+/* Foreign languages (3) */
+.border-3 {
+    clear: both;
+    /*border: 5px solid springgreen;*/
+    /*margin-right: 1em;*/
+    /*margin-top: 2em;*/
+}
+
+/* Cultural villages (4) */
+.border-4 {
+    clear: both;
+    /*border: 5px solid blue;*/
+    /*margin-right: 1em;*/
+    /*margin-top: 2em;*/
+}
+
+/* LARGE DEVICE */
+@media (min-width: 769px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-13, .col-lg-14, .col-lg-15, .col-lg-16, .col-lg-17, .col-lg-18, .col-lg-19, .col-lg-20, .col-lg-21, .col-lg-22, .col-lg-23, .col-lg-24 {
+      float: left;
+      padding: 0.5em;
+      /*border: 5px solid pink;
+      margin-right: 1em;*/
+  }
+
+    .col-lg-1 {width: 8.33%;}
+    .col-lg-2 {width: 16.66%;}
+    .col-lg-3 {width: 25%;}
+    .col-lg-4 {width: 33.33%;}
+    .col-lg-5 {width: 41.66%;}
+    .col-lg-6 {width: 50%;}
+    .col-lg-7 {width: 58.33%;}
+    .col-lg-8 {width: 66.67%;}
+    .col-lg-9 {width: 74.99%;}
+    .col-lg-10 {width: 83.33%;}
+    .col-lg-11 {width: 91.66%;}
+    .col-lg-12 {width: 100%;}
+  
+}
+
+/*SMALL DEVICES */
+@media (max-width: 768px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left;
+    }
+
+    .move-left-4 {
+        float: left;
+        width: 50%; 
+    }
+    .move-right-4 {
+        float: right;
+        width: 50%; 
+    }
+  
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.33%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33%;}
+    .col-md-8 {width: 66.67%;}
+    .col-md-9 {width: 74.99%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+    
+  }
