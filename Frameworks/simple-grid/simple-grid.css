@@ -63,6 +63,11 @@ p {
   line-height: 1.8;
 }
 
+ul {
+  padding: 0.5rem;
+  font-size: 0.6rem;
+}
+
 .font-light {
   font-weight: 300;
 }
@@ -98,9 +103,9 @@ p {
 /* ==== GRID SYSTEM ==== */
 
 .container {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%; /* WAS 90%*/
+  margin-left: 2rem; /* WAS AUTO */
+  margin-right: 0rem; /* WAS AUTO */
 }
 
 .row {
@@ -189,7 +194,7 @@ p {
 
 @media only screen and (min-width: 33.75em) {  /* 540px */
   .container {
-    width: 80%;
+    width: 100%; /* WAS 80% */
   }
 }
 
@@ -249,7 +254,7 @@ p {
 
 @media only screen and (min-width: 60em) { /* 960px */
   .container {
-    width: 75%;
+    width: 100%; /* WAS 75% */
     max-width: 60rem;
   }
 }
